@@ -1,0 +1,33 @@
+.card {
+  width: 600px;
+  height: 300px;
+  background-color: #000;
+  border-radius: 20px;
+  margin-top: 3rem;
+}
+.card:hover:nth-child(n) {
+  border: 3px solid purple;
+}
+.productcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.cardimg {
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.cardimg img {
+  width: 100%;
+  height: 100%;
+}
+.cardexp {
+  font-size: 28px;
+  font-family: bold;
+  text-align: center;
+}
